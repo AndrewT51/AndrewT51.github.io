@@ -1,0 +1,193 @@
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+#aboutMe {
+  margin-top: 31vh;
+  width: 100vw;
+  /*height: 200vh;*/
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+.autoTyping {
+  color: orange;
+}
+
+.behindPic {
+    position: relative;
+    bottom: -60%
+
+}
+body {
+  overflow-x:hidden;
+}
+
+.pulse:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker */
+  animation-play-state: running;
+}
+
+
+#forMobile {
+  text-align: center;
+  color:white;
+  font-size: 2em;
+  background-color: #0084B4;
+  height: 19vh;
+  z-index:0;
+
+  position: relative;
+  top:-10vh;
+}
+
+
+
+#forMobile a {
+  color: white;
+}
+
+#links {
+  float: right;
+  font-size: 2em;
+  margin-right: 25px;
+}
+
+/*#mailgun {
+  background-color: white;
+}*/
+
+#mainPic {
+  width: 100vw;
+  height: 70vh;
+  position: fixed;
+  z-index: -15;
+}
+
+.midLengthHr {
+  width: 20vw;
+  border-color: lightyellow;
+}
+
+.overlay {
+  margin-top: 5vh;
+  border:1px dotted lightyellow;
+  text-align: center;
+  color: lightyellow;
+  padding-bottom: 5vh;
+}
+
+.panel {
+  padding: 10px;
+
+}
+
+#profilePic {
+  clear: right;
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  border: 3px white solid;
+  max-height: 30vh;
+  margin: 20vh auto;
+  margin-bottom: -19vh;
+  top: -20vh;
+  z-index:2;
+}
+
+#projects {
+  background-color: #4D333D;
+  text-align: center;
+  color:white;
+}
+
+#projects a:hover {
+  text-decoration: none;
+}
+
+#projects h2 {
+  text-align: left;
+}
+#projects img {
+  width:80%;
+  height: 20vw;
+}
+
+@media screen and (max-width: 767px) {
+  #projects img {
+    width:30vw;
+    height: 30vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  p,.btn,input,div,span,h4 {
+    font-size: 90%;
+  }
+  h1 {
+    font-size: 20px;  
+  }
+  h2 {
+    font-size: 18px;  
+  }
+  h3 {
+    font-size: 16px;  
+  }
+  #projects img {
+    width:30vw;
+    height: 30vw;
+  }
+}
+
+section {
+  margin: 0;
+}
+
+textarea {
+  z-index: auto; 
+  position: relative; 
+  line-height: 20px; 
+  font-size: 14px; 
+  transition: none; 
+  overflow: auto; 
+  background: transparent !important;
+  resize:none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

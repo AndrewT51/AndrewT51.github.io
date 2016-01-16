@@ -1,0 +1,138 @@
+
+#container {
+	height: 500px;
+	width: 910px;
+	/*background-image: url(http://signage.biz/wp-content/uploads/2013/10/tabletop-digital-signs.jpg);
+	b*/ackground-size: 100%;
+} 
+h1 {
+	text-align: center;
+}
+
+#level {
+	text-align: center;
+	position: relative;
+	height: 20px;
+	margin-left: 100px;
+	top: -5px;
+	width: 30px;
+}
+label {
+	color: grey;
+	position: relative;
+	top: -5px;
+	left: 92px;
+	font-size: 0.5em;
+}
+#play {
+	position: relative;
+	top:-5px;
+	margin-left: 2px;
+	background-color: lightgrey;
+	height: 24px;
+}
+
+.rearBoxes {
+	float:left;
+	height: 450px;
+	width: 300px;
+	margin-top: -10px;
+	margin-left: 2px;
+}
+
+.box {
+	border: 1px solid transparent;
+	background-color: transparent;
+	position: relative;
+	float:left;
+	height: 450px;
+	width: 300px;
+	margin-top: -450px;
+	
+}
+.thePole {
+	background-image: url(http://paper-backgrounds.com/textureimages/2012/08/brown-wood-texture-background.jpg);
+	position: relative;
+	top: 70px;
+	width: 10px;
+	height: 300px;
+	background-color: brown;
+	border-right: black solid 3px;
+	border-left: black solid 3px;
+	margin: 0px auto;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.bottom {
+	background-image: url(http://paper-backgrounds.com/textureimages/2012/08/brown-wood-texture-background.jpg);
+	position: relative;
+	top: 70px;
+	background-color: brown;
+	width: 80%;
+	height: 20px;
+	border: 3px black solid;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin: 0px auto;
+}
+.section {
+	/*border: black solid 1px;*/
+	width: 300px;
+	position: absolute;
+	bottom:81px;
+}
+.tower1 {
+	left: 0px;
+
+}
+.tower2 {
+	left: 0px;
+}
+.tower3 {
+	left: 0px;
+}
+.disk{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Fraxinus_excelsior_wood_ray_section_beentree.jpg/1600px-Fraxinus_excelsior_wood_ray_section_beentree.jpg);
+	height: 45px;
+	border-right: black solid 3px;
+	border-left: black solid 3px;
+	margin: 0px auto;
+	border-radius: 20px;
+	border-top: 2px solid black;
+
+}
+.disk1 {
+	display:none;
+	top:443px;
+	width: 70%;
+	box-shadow: inset 0 0 0 1000px rgba(39, 242, 36,.6);
+	/*background-color: red;*/
+}
+.disk2 {
+	display:none;
+	width: 60%;
+	box-shadow: inset 0 0 0 1000px rgba(19, 37, 242,.6);
+	background-color: green;
+
+}
+.disk3 {
+	display:none;
+	box-shadow: inset 0 0 0 1000px rgba(247, 9, 9,.6);
+	width: 50%;
+	background-color: blue;
+
+}
+.disk4{
+	display:none;
+	box-shadow: inset 0 0 0 1000px rgba(247, 156, 9,.6);
+	width: 40%;
+	background-color: yellow;
+
+}
+.disk5{
+	display:none;
+	box-shadow: inset 0 0 0 1000px rgba(242, 222, 70,.6);
+	width: 30%;
+	background-color: yellow;
+
+}
