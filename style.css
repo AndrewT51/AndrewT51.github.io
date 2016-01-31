@@ -120,20 +120,24 @@ body {
   z-index:2;
 }
 
-#projects {
+#projects, #contributions {
   background-color: #4D333D;
   text-align: center;
   color:white;
+}
+
+#contributions {
+  background-color: rgb(51, 122, 183);
 }
 
 #projects a:hover {
   text-decoration: none;
 }
 
-#projects h2 {
+#projects h2, #contributions h2{
   text-align: left;
 }
-#projects img {
+#projects img, #contributions img {
   width:80%;
   height: 20vw;
 }
